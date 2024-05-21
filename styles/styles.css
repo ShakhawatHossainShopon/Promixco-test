@@ -1,0 +1,326 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* fonts */
+*{
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    text-decoration: none;
+}
+/* colors */
+
+/* colors */
+.primary-color{
+    color: #F40469 !important;
+}
+.primary-bg{
+    background-color: #F40469 !important;
+}
+.white{
+    color: white !important;
+}
+.white-bg{
+    background-color: #fff;
+}
+.black{
+    color: black !important;
+}
+.black-bg{
+    background-color: black !important;
+}
+.light-black{
+    color: #283646 !important;
+}
+.light-black-bg{
+    background-color: #283646 !important;
+}
+
+/* Typography */
+
+h1{
+    font-size: 62px;
+}
+h2{
+    font-size: 48px;
+    line-height: 58px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 21px;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.font-bold{
+    font-weight: 600;
+}
+.font-medium{
+    font-weight: 500;
+}
+.font-light{
+    font-weight: 400;
+}
+.anchor-text{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #F40469;
+}
+/* buttons */
+.main-btn{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    background: #F40469;
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+.main-btn:hover{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    background: #fff;
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all linear .3s;
+    z-index: 1;
+}
+
+.main-dark-btn{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    background: #283646;
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+.main-dark-btn:hover{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    background: #F40469;
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+
+.transparent-btn{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    background: transparent;
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+
+/* section */
+section{
+    padding: 1.7rem 7%; 
+}
+/* shape */
+footer{
+    position: relative;
+}
+.shape-1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* navbar */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem 7%;
+}
+
+/* hero section*/
+.hero-section{
+    min-height: 55vh;
+}
+.hero-bg{
+    background-image: url(../assets/Preset.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-content{
+   padding-top: 9rem;
+}
+
+
+.search-container {
+    width: 900px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the search bar */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  .search-button {
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Change hover color as needed */
+  }
+  
+  .first-button {
+    font-size: 20px;
+    padding: .8rem 1.5rem;
+    font-weight: 600;
+  }
+  
+  .edge-button {
+   background: #F40469;
+   padding: .8rem 1.5rem;
+   font-size: 20px;
+   color: #fff;
+   border-radius: 0px 10px 10px 0px;
+   font-weight: 500;
+  }
+  .edge-button:hover {
+    background: #FFB9C6;
+    padding: .8rem 1.5rem;
+    font-size: 20px;
+    color: #000;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 500;
+    transition: all linear .3s;
+   }
+  
+/* banner */
+.banner-content p{
+    padding-right: 35%;
+}
+
+/* card section */
+.box{
+    border-radius: 2rem;
+}
+
+/* secound banner */
+.secound-banner-bg{
+    background-image: url(../assets/CTA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    padding: 4rem 7%;
+    margin-top: 7rem;
+}
+
+/* slider */
+.slider-content{
+    max-width: 500px;
+    position: relative;
+}
+.slider-text{
+    position: absolute;
+    top: 30%;
+}
+
+  /* media queries */
+
+@media (max-width: 575.98px) {
+    .hero-section{
+        min-height: 35vh;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .hero-content{
+        padding-top: 2rem;
+     }
+    .edge-button {
+        padding: .3rem 1.2rem;
+        font-size: 16px;
+       }
+    .first-button {
+        display: none;
+      }
+    .search-container {
+    width: 300px !important; /* Adjust width as needed */
+    margin: 20px auto; /* Center the search bar */
+  } }
+
+
+@media (max-width: 767.98px) { 
+    .banner-content{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .banner-content p{
+        padding: 0rem;
+    }
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .slider-text{
+        position: absolute;
+        top: 10%;
+    }
+ }
+
+@media (max-width: 991.98px) { }
+
+@media (max-width: 1199.98px) { 
+    .search-container {
+        width: 500px; /* Adjust width as needed */
+        margin: 20px auto; /* Center the search bar */
+      }
+ }
+
+@media (max-width: 1399.98px) { }
